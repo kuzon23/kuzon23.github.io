@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuzon</title>
+    <style>
+        p.title {
+            font-family: 'Gill Sans MT', 'Trebuchet MS', 'Verdana', sans-serif;
+            font-size: 80px;
+            font-style: italic;
+            text-shadow: 3px 2px 2px red, -3px -2px 2px blue, 0px 0px 12px black;
+            text-align: center;
+            color: white;
+            transition: 420ms;
+            margin-top: 20px;
+            transform: rotateX(23deg);
+        }
+        p.title:hover {
+            letter-spacing: 12px;
+            cursor: default;
+        }
+        div.title {
+            box-shadow: 2px 2px 18px black;
+            background-color: blueviolet;
+            margin: 4em;
+            border-radius: 25px;
+        }
+        body {
+            background-color: slategrey;
+        }
+        div.main {
+            margin-top: 120px;
+        }
+        img#capybara {
+            border: 8px solid blueviolet;
+            box-shadow: 0px 0px 12px black;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 500px;
+            border-radius: 25px;
+            transition: 700ms;
+            perspective: 1000px;
+        }
+        img:hover {
+            width: 550px;
+            box-shadow: 0px 6px 10px black;
+            border: 6px solid blueviolet;
+        }
+    </style>
+    <script>
+    window.onmousemove = function (e) {
+        var x = e.clientX;
+        var midpoint = (window.screen.width/2);
+
+        if (x > (midpoint+300)) {
+            document.getElementById('capybara').style.transform = 'rotateZ(4deg)';
+        }
+        else if (x < (midpoint-300)) {
+            document.getElementById('capybara').style.transform = 'rotateZ(-4deg)';
+        }
+        else {
+            document.getElementById('capybara').style.transform = 'rotateZ(0deg)';
+        }
+    }
+    function poop() {
+        var links = ['https://www.youtube.com/watch?v=couz1CrlTdQ','https://www.youtube.com/watch?v=lP0GNfWSW30','https://www.youtube.com/watch?v=2VjpwYM05eo','https://www.youtube.com/watch?v=zfueGqaXp1g', 'https://www.youtube.com/watch?v=SCwcJsBYL3o', 'https://www.youtube.com/watch?v=APJZeNY6dKo', 'https://www.youtube.com/watch?v=IaLGdRx7prA', 'https://www.youtube.com/watch?v=QUqCWkPlLLc'];
+        var capybara = links[Math.floor(Math.random()*links.length)];
+        window.open(capybara);
+    }
+    </script>
+</head>
+<body>
+    <div class="title">
+        <p class="title">Kuzon</p>
+    </div>
+    <div class="main">
+        <img src='https://i.pinimg.com/736x/64/35/bc/6435bc456b05c9df2ac009f13415ace7--eating-watermelon-rodents.jpg' id="capybara" onclick="poop()"/>
+    </div>
+</body>
+</html>
