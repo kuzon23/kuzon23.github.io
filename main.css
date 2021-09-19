@@ -118,6 +118,7 @@
              width: 96%;
              border-radius: 25px;
              padding: 8px;
+             height: 60px; !important
         }
         div#footer a {
              text-decoration: 0;
