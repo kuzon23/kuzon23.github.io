@@ -99,12 +99,12 @@
              cursor: pointer;
         }
         div#projects h2 {
-             font-family: 'georgia', serif;
+             font-family: 'tahoma', sans-serif;
              font-style: italic;
              font-weight: 900;
              color: white;
              -webkit-text-stroke: 1px black;
-             text-shadow 0px 0px 2px rgba(255,255,255,0.7);
+             text-shadow: 0px 0px 2px rgba(255,255,255,0.7);
         a.top {
              text-decoration: 0;
              font-style: italic;
