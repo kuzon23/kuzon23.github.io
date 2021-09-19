@@ -90,3 +90,7 @@
              text-align: center;
              height: 100%;
         }
+        img#projects {
+             border: 1px solid black;
+             box-shadow: 2px 2px 8px rgba(0,0,0,0.8);
+        }
