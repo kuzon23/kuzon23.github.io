@@ -59,7 +59,6 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-size: 500%;
-            background-position: 0%;
             transition: 8000ms;
             display: block;
             margin-left: auto;
@@ -68,7 +67,6 @@
         }
         p#projects:hover {
             cursor: default;
-            background-position: 100%;
         }
         div#projects {
              margin-top: 18px;
