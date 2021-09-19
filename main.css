@@ -132,10 +132,10 @@
         div#footer img {
              float: right;
              margin-right: 20px;
-             width: 36px;
+             width: 40px;
              transition: 400ms;
         }
         div#footer img:hover {
              cursor: pointer;
-             width: 38px;
+             width: 42px;
         }
