@@ -20,8 +20,8 @@
         window.open(capybara);
     }
 
+    var title = document.getElementById('title');
     function secret() {
-        var title = document.getElementById('title');
         if (clicked=='false') {
             title.style.letterSpacing = '32px';
             var clicked = 'true';
@@ -32,3 +32,4 @@
         }
         else { console.log('error') }
     }
+    title.onclick = secret();
