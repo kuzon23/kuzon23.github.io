@@ -36,10 +36,13 @@
             transition: 700ms;
             perspective: 1000px;
         }
-        img:hover {
+        img#capybara:hover {
             width: 550px;
             box-shadow: 0px 6px 10px black;
             border: 6px solid blueviolet;
+        }
+        img#arrow {
+            width: 60px;
         }
         p#projects {
             font-size: 45px;
