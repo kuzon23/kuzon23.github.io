@@ -48,6 +48,7 @@
             margin-right: auto;
             margin-top: 5%;
             margin-bottom: 5%;
+            transition: 400ms;
         }
         img#arrow:hover {
             width: 150px;
