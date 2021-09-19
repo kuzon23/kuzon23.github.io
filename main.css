@@ -50,11 +50,11 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-size: 500%;
-            background-position-y: 0%;
+            background-position: 0%;
             transition: 1000ms;
         }
         p#projects:hover {
-            background-position-y: 100%;
+            background-position: 100%;
             cursor: default;
         }
         div#projects {
