@@ -132,5 +132,10 @@
              margin-left: auto;
              margin-right: auto;
              margin-top: 25%;
+             width: 40px;
+             transition: 400ms;
+        }
+        div#footer img:hover {
+             cursor: pointer;
              width: 45px;
         }
