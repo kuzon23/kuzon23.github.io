@@ -12,7 +12,7 @@
             document.getElementById('capybara').style.transform = 'rotateZ(0deg)';
         }
         for (;;) {
-            document.getElementById('projects').style.backgroundPosition = `${x}px`;
+            document.getElementById('projects').style.backgroundPosition = `${x.toString()}px`;
         }
     }
     function poop() {
