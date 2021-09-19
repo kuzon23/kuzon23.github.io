@@ -1,4 +1,10 @@
-        p#title {
+        div#title {
+            box-shadow: 2px 2px 18px black;
+            background-color: blueviolet;
+            margin: 4em;
+            border-radius: 25px;
+        }
+        div#title p {
             font-family: 'Gill Sans MT', 'Trebuchet MS', 'Verdana', sans-serif;
             font-size: 80px;
             font-style: italic;
@@ -9,15 +15,9 @@
             margin-top: 20px;
             transform: rotateX(23deg);
         }
-        p#title:hover {
+        div#title p:hover {
             letter-spacing: 12px;
             cursor: default;
-        }
-        div#title {
-            box-shadow: 2px 2px 18px black;
-            background-color: blueviolet;
-            margin: 4em;
-            border-radius: 25px;
         }
         body {
             background-color: slategrey;
