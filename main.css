@@ -57,7 +57,7 @@
             background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,254,0,1) 12%, rgba(0,255,36,1) 25%, rgba(0,248,185,1) 32%, rgba(0,182,240,1) 41%, rgba(0,11,243,1) 51%, rgba(138,0,246,1) 61%, rgba(244,66,251,1) 69%, rgba(255,0,0,1) 80%, rgba(255,173,0,1) 89%, rgba(251,255,139,1) 95%, rgba(255,255,255,1) 100%);            
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            text-shadow: 3px -3px 7px black;
+            text-shadow: 3px -3px 7px white;
             animation: btn-grad 1s infinite alternate;
             background-size: 500%;
         }
