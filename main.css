@@ -59,8 +59,9 @@
             -webkit-text-fill-color: transparent;
             animation: text-gradient 1s infinite alternate;
             background-size: 500%;
+        }
+        div#projects {
             display: block;
             margin-left: auto;
             margin-right: auto;
         }
-
