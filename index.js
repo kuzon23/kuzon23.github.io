@@ -32,4 +32,4 @@
         }
         else { console.log('error') }
     }
-    title.onclick = secret();
+    document.getElementById('secret').onclick = secret();
