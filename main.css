@@ -117,7 +117,7 @@
              background: blueviolet;
              width: 96%;
              border-radius: 25px;
-             padding: 8px;
+             padding: 14px;
         }
         div#footer a {
              text-decoration: 0;
@@ -127,10 +127,12 @@
              color: white;
              -webkit-text-stroke: 1px black;
              text-shadow: 0px 0px 2px rgba(0,0,0,0.7);
+             margin-left: 20px;
         }
         div#footer img {
              float: right;
              margin-top: 6px;
+             margin-right: 20px;
              width: 40px;
              transition: 400ms;
         }
