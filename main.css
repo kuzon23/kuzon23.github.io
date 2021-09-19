@@ -91,8 +91,12 @@
             cursor: default;
         }
         div#projects img {
+             width: 500px;
              border: 1px solid black;
              box-shadow: 2px 2px 8px rgba(0,0,0,0.8);
+        }
+        div#projects img:hover {
+             cursor: pointer;
         }
         div#projects h2 {
              font-family: 'times new roman', serif;
