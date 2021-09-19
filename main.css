@@ -63,5 +63,6 @@
             cursor: default;
         }
         div#projects {
+             margin-top: 18px;
              text-align: center;
         }
