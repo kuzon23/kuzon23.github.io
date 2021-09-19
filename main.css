@@ -118,7 +118,6 @@
              width: 96%;
              border-radius: 25px;
              padding: 8px;
-             height: 60px; !important
         }
         div#footer a {
              text-decoration: 0;
@@ -130,13 +129,12 @@
              text-shadow: 0px 0px 2px rgba(0,0,0,0.7);
         }
         div#footer img {
-             margin-left: auto;
-             margin-right: auto;
-             margin-top: 25%;
+             float: right;
+             margin-top: 6px;
              width: 40px;
              transition: 400ms;
         }
         div#footer img:hover {
              cursor: pointer;
-             width: 45px;
+             width: 42px;
         }
