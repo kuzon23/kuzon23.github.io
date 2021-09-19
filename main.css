@@ -45,7 +45,7 @@
             font-size: 45px;
             font-family: 'Gill Sans MS', sans-serif;
             font-weight: 900;
-            text-shadow: inline 3px 2px 3px black;
+            text-shadow: inset 3px 2px 3px black;
             outline 4px solid black;
             background: rgb(255,255,255);
             background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,254,0,1) 12%, rgba(0,255,36,1) 25%, rgba(0,248,185,1) 32%, rgba(0,182,240,1) 41%, rgba(0,11,243,1) 51%, rgba(138,0,246,1) 61%, rgba(244,66,251,1) 69%, rgba(255,0,0,1) 80%, rgba(255,173,0,1) 89%, rgba(251,255,139,1) 95%, rgba(255,255,255,1) 100%);            
@@ -61,4 +61,7 @@
         p#projects:hover {
             background-position: 100%;
             cursor: default;
+        }
+        div#projects {
+             text-align: center;
         }
