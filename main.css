@@ -117,6 +117,7 @@
              background: blueviolet;
              width: 96%;
              border-radius: 25px;
+             padding: 8px;
         }
         div#footer a {
              text-decoration: 0;
