@@ -11,7 +11,7 @@
         else {
             document.getElementById('capybara').style.transform = 'rotateZ(0deg)';
         }
-        for ('') {
+        for (;;) {
             document.getElementById('projects').style.backgroundPosition = `${x}px`;
         }
     }
