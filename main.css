@@ -112,7 +112,11 @@
         }
         span#footer {
              display: inline-block;
-             background: #272727;
+             margin-left: auto;
+             margin-right: auto;
+             background: blueviolet;
+             width: 94%;
+             
         }
         span#footer a {
              text-decoration: 0;
