@@ -116,7 +116,7 @@
              margin-right: auto;
              background: blueviolet;
              width: 94%;
-             
+             border-radius: 25px;
         }
         span#footer a {
              text-decoration: 0;
