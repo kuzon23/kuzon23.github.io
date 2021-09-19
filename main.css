@@ -43,6 +43,9 @@
         }
         img#arrow {
             width: 60px;
+            display: block;
+            left: auto;
+            right: auto;
         }
         p#projects {
             font-size: 45px;
