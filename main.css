@@ -131,12 +131,11 @@
         }
         div#footer img {
              float: right;
-             margin-top: 6px;
              margin-right: 20px;
-             width: 40px;
+             width: 36px;
              transition: 400ms;
         }
         div#footer img:hover {
              cursor: pointer;
-             width: 42px;
+             width: 38px;
         }
