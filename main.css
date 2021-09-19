@@ -59,5 +59,6 @@
             -webkit-text-fill-color: transparent;
             text-shadow: 3px -3px 7px black;
             animation: btn-grad 1s infinite alternate;
+            background-size: 500%;
         }
 
