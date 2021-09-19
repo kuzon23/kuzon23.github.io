@@ -18,5 +18,5 @@
         window.open(capybara);
     }
     for (;;) {
-        document.getElementByID('projects').style.backgroundPosition = `${x/100}%`;
+        document.getElementById('projects').style.backgroundPosition = `${x/100}%`;
     }
