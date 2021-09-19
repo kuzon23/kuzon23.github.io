@@ -1,4 +1,4 @@
-        p.title {
+        p#title {
             font-family: 'Gill Sans MT', 'Trebuchet MS', 'Verdana', sans-serif;
             font-size: 80px;
             font-style: italic;
@@ -9,11 +9,11 @@
             margin-top: 20px;
             transform: rotateX(23deg);
         }
-        p.title:hover {
+        p#title:hover {
             letter-spacing: 12px;
             cursor: default;
         }
-        div.title {
+        div#title {
             box-shadow: 2px 2px 18px black;
             background-color: blueviolet;
             margin: 4em;
@@ -22,7 +22,7 @@
         body {
             background-color: slategrey;
         }
-        div.main {
+        div#main {
             margin-top: 120px;
         }
         img#capybara {
