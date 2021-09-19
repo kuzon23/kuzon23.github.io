@@ -20,16 +20,15 @@
         window.open(capybara);
     }
 
-    var title = document.getElementById('title');
     function secret() {
         if (clicked==0) {
-            title.style.letterSpacing = '32px';
+            document.getElementById('title').style.letterSpacing = '32px';
             var clicked = 1;
         }
         else if (clicked==1) {
-            title.style.letterSpacing = 'auto';
+            document.getElementById('title').style.letterSpacing = 'auto';
             var clicked = 0;
         }
         else { console.log('error') }
     }
-    title.onclick = secret();
+    document.getElementById('title').onclick = secret();
