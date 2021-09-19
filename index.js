@@ -1,4 +1,4 @@
-    var clicked = 'false';
+    var clicked = 0;
     window.onmousemove = function (e) {
         var x = e.clientX;
         var midpoint = (window.screen.width/2);
@@ -22,13 +22,13 @@
 
     var title = document.getElementById('title');
     function secret() {
-        if (clicked=='false') {
+        if (clicked==0) {
             title.style.letterSpacing = '32px';
-            var clicked = 'true';
+            var clicked = 1;
         }
-        else if (clicked=='true) {
+        else if (clicked==1) {
             title.style.letterSpacing = 'auto';
-            var clicked = 'false';
+            var clicked = 0;
         }
         else { console.log('error') }
     }
