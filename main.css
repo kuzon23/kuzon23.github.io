@@ -44,8 +44,8 @@
         img#arrow {
             width: 120px;
             display: block;
-            left: auto;
-            right: auto;
+            margin-left: auto;
+            margin-right: auto;
         }
         p#projects {
             font-size: 45px;
