@@ -11,7 +11,7 @@
         else {
             document.getElementById('capybara').style.transform = 'rotateZ(0deg)';
         }
-        document.getElementByID('projects').style.background-position = `${x/100}%`;
+        document.getElementByID('projects').style.backgroundPosition = `${x/100}%`;
     }
     function poop() {
         var links = ['https://www.youtube.com/watch?v=couz1CrlTdQ','https://www.youtube.com/watch?v=lP0GNfWSW30','https://www.youtube.com/watch?v=2VjpwYM05eo','https://www.youtube.com/watch?v=zfueGqaXp1g', 'https://www.youtube.com/watch?v=SCwcJsBYL3o', 'https://www.youtube.com/watch?v=APJZeNY6dKo', 'https://www.youtube.com/watch?v=IaLGdRx7prA', 'https://www.youtube.com/watch?v=QUqCWkPlLLc'];
