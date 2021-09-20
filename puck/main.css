@@ -30,3 +30,7 @@ div#main p {
   font-family: berserk;
   text-shadow: 0px 0px 7px rgba(0,0,0,0.7);
 }
+
+a {
+  color: crimson;
+}
