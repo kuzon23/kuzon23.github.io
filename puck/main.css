@@ -10,8 +10,11 @@ div#title {
 }
 
 div#title p {
-  display: flex;
   font-size: 70px;
   font-family: berserk;
   text-shadow: 0px 0px 7px rgba(0,0,0,0.7);
+}
+
+div#title img {
+  width: 65px;
 }
